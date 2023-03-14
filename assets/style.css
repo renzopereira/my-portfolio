@@ -40,6 +40,10 @@ header {
     align-items: center;
 }
 
+.logo:hover {
+    scale: 1.1;
+}
+
 .logo img {
     width: 125px;
 }
@@ -166,6 +170,175 @@ button:hover {
     color: var(--text-color);
     transition: all 0.3s ease;
     scale: 115%;
+}
+
+.service {
+    background: var(--bg-color);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: var(--text-color);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;    
+}      
+ 
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: var(--bg-color);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: var(--main-color);
+}
+
+h5 {
+    color: var(--text-color);
+    font-size: 23px;
+    margin-bottom: 15px;
+}  
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card .button:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    scale: 115%;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.contact-me p {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact-me .button-two:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    scale: 115%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}  
+
+footer p:nth-child(2) {
+    color: var(--text-color);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: var(--bg-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.end {
+    position: absolute;
+    color: var(--main-color);
+    bottom: 35px;
+    font-size: 14px;
+}
+
+.end i {
+    color: var(--main-color);
+    bottom: 35px;
+    font-size: 14px;
 }
 
 @media (max-width: 1402px) {
