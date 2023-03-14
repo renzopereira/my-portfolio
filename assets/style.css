@@ -152,11 +152,28 @@ header {
 
     .navbar.open {
         right: 2%;
+        height: 35vh;
     }
 }
 
 @media (max-width: 483px) {
     .logo img {
-        width: 90%;
+        width: 80px;
+    }
+}
+
+@media (max-width: 422px) {
+    header {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .main {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .main a i {
+        margin-bottom: 30px;
     }
 }
