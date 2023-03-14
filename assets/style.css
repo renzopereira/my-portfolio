@@ -228,7 +228,7 @@ h5 {
 
 .card .button {
     background-color: var(--text-color);
-    color: var(--bg-color);
+    color: #101010;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
