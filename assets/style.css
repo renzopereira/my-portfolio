@@ -360,7 +360,7 @@ footer p:nth-child(2) {
 
     .navbar {
         position: absolute;
-        top: 100%;
+        top: 12%;
         right: -100%;
         width: 270px;
         height: 150px;
