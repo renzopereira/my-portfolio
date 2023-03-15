@@ -423,6 +423,10 @@ footer p:nth-child(2) {
         height: 100%;
     }
 
+    .logo img:hover {
+        scale: none;
+    }
+
     .main a {
         margin: 30px 10px;
     }
